@@ -7,7 +7,7 @@
         },
         {
             "src": "/posts/:slug",
-            "dest": "/_posts/:slug.md"
+            "dest": "/_posts/:slug:output_ext"
         },
         {
             "src": "/(.*)",
