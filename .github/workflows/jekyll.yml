@@ -31,7 +31,9 @@ jobs:
         uses: actions/configure-pages@v5
 
       - name: Build with Jekyll
-        run: bundle exec jekyll build
+        run: |
+          bundle exec jekyll build --verbose
+          ls -la _site/assets/css/
         env:
           JEKYLL_ENV: production
 
