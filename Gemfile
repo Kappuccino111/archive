@@ -3,7 +3,7 @@ source "https://rubygems.org"
 gem 'jekyll'
 gem 'sassc'
 gem 'minima'
-gem 'jekyll-paginate'
+gem 'jekyll-paginate-v2'
 gem 'jekyll-feed'
 gem 'jekyll-seo-tag'
 gem 'csv'

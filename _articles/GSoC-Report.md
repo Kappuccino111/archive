@@ -1,8 +1,7 @@
 ---
 layout: posts
-title: Sandboxing Scanners - A Leap into the Driverless Realm (GSoC '23 Report)🦘🔮
+title: Sandboxing Scanners - GSoC '23 Report
 date: 2023-10-30
-tags: [GSoC, Report]
 excerpt: Final report for GSoC 2023
 ---
 
@@ -84,7 +83,3 @@ During this journey, an epiphany struck. Why restrict ourselves to mere scanning
 My gratitude to the guiding stars on this journey - [Till Kamppeter](https://at.linkedin.com/in/kamppetertill), [Aveek Basu](https://www.linkedin.com/in/basuaveek/), [Rishabh Maheshwari](https://in.linkedin.com/in/rishabh-maheshwari-41189a224), and [Deepak Patankar](https://in.linkedin.com/in/deepak-patankar-797622148?trk=public_post_feed-actor-name).
 
 A symphony of appreciation is dedicated to **Till Kamppeter**. Without his baton orchestrating the path, this musical journey through code would have been silent.
-
-
-
-

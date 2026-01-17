@@ -6,7 +6,7 @@ github_username: kappuccino111
 linkedin_username: akarshan111
 
 plugins:
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-picture-tag
@@ -17,18 +17,28 @@ defaults:
       path: ""
     values:
       layout: "default"
+  -
+    scope:
+      path: "_articles"
+    values:
+      layout: "posts"
 
 collections:
-  posts:
+  articles:
     output: true
+    sort_by: date
     permalink: /:year/:month/:day/:slug.html
 
 sass:
   sass_dir: _sass
   style: compressed
 
-paginate: 1
-paginate_path: "/zsh_history/page:num/"
+pagination:
+  enabled: true
+  per_page: 5
+  permalink: '/archive/page/:num/'
+  sort_field: 'date'
+  sort_reverse: true
 
 markdown: kramdown
 kramdown:

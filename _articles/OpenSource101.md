@@ -2,7 +2,6 @@
 layout: posts
 title: Open Source 101
 date: 2023-11-09
-tags: [Getting Started, OpenSource , GSoC]
 excerpt: Introduction to Open Source - A detailed guide
 ---
 
@@ -132,7 +131,3 @@ So, brave navigators of the digital seas, you are all set for an Open Source esc
 
 
 ![New Horizon](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/tz7m4uzjqby6t80uylxw.gif)
-
-
-
-

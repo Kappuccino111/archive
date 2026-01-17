@@ -1,9 +1,16 @@
 _site/
 .jekyll-cache/
 .sass-cache/
+.jekyll-metadata
 _secret.yml
 .DS_Store
 Thumbs.db
 ehthumbs.db
 Desktop.ini
 .vscode/
+*.swp
+*.swo
+*~
+.bundle/
+vendor/
+node_modules/

@@ -8,13 +8,15 @@ $link-color: #ffd700;
 $hover-color: #ffffff;
 
 body {
-  font-family: 'Cascadia Code', Courier, monospace;
+  font-family: 'Fira Code', monospace;
   font-size: larger;
+  line-height: 1.55;
   background-color: $bg-color;
   text-align: justify;
   color: $text-color;
   margin: 0;
   padding: 0;
+  font-feature-settings: "liga" 0;
 }
 
 .container {
@@ -359,28 +361,6 @@ a:hover {
   color: $hover-color;
   text-decoration-line: underline;
   background-color: #000000;
-}
-
-.tag-box {
-  display: inline-block;
-  font-size: small;
-  font-weight: bold;
-  padding: 2px 5px;
-  margin: 1px;
-  border-radius: 2px;
-  background-color: #242424;
-  color: rgb(0, 251, 255);
-}
-
-.tag-box2 {
-  display: inline-block;
-  font-size: small;
-  font-weight: bold;
-  padding: 2px 5px;
-  margin: 1px;
-  border-radius: 2px;
-  background-color: #242424;
-  color: rgb(255, 124, 124);
 }
 
 .pageheader {

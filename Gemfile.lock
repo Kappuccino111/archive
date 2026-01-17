@@ -44,7 +44,8 @@ GEM
       safe_yaml (~> 1.0)
     jekyll-feed (0.17.0)
       jekyll (>= 3.7, < 5.0)
-    jekyll-paginate (1.1.0)
+    jekyll-paginate-v2 (3.0.0)
+      jekyll (>= 3.0, < 5.0)
     jekyll-picture-tag (0.3.0)
       fastimage (~> 1.6.4)
       jekyll (< 4)
@@ -112,7 +113,7 @@ DEPENDENCIES
   csv
   jekyll
   jekyll-feed
-  jekyll-paginate
+  jekyll-paginate-v2
   jekyll-picture-tag
   jekyll-seo-tag
   kramdown-parser-gfm

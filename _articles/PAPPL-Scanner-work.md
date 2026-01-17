@@ -2,7 +2,6 @@
 layout: posts
 title: PAPPL Scanning Workflow
 date: 2024-06-09
-tags: [PAPPL, Scanning Integrations, GSoC]
 excerpt: A very detailed devlog based on Scanning Integration in PAPPL
 ---
 

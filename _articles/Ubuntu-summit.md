@@ -1,8 +1,7 @@
 ---
 layout: posts
-title: The Ubuntu Summit 2023 🔥🎯
+title: The Ubuntu Summit 2023
 date: 2023-11-10
-tags: [conference, ubuntu summit, latvia, OpenSource]
 excerpt: This is my first post on this blog.
 ---
 

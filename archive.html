@@ -1,0 +1,51 @@
+---
+layout: default
+title: archive
+permalink: /archive/
+pagination:
+  enabled: true
+  collection: articles
+---
+
+<div class="centered">
+  <pre>
+███╗░░░███╗███████╗███╗░░░███╗░█████╗░██████╗░██╗░░░██╗  ░█████╗░░█████╗░░█████╗░██╗░░██╗███████╗
+████╗░████║██╔════╝████╗░████║██╔══██╗██╔══██╗╚██╗░██╔╝  ██╔══██╗██╔══██╗██╔══██╗██║░░██║██╔════╝
+██╔████╔██║█████╗░░██╔████╔██║██║░░██║██████╔╝░╚████╔╝░  ██║░░╚═╝███████║██║░░╚═╝███████║█████╗░░
+██║╚██╔╝██║██╔══╝░░██║╚██╔╝██║██║░░██║██╔══██╗░░╚██╔╝░░  ██║░░██╗██╔══██║██║░░██╗██╔══██║██╔══╝░░
+██║░╚═╝░██║███████╗██║░╚═╝░██║╚█████╔╝██║░░██║░░░██║░░░  ╚█████╔╝██║░░██║╚█████╔╝██║░░██║███████╗
+╚═╝░░░░░╚═╝╚══════╝╚═╝░░░░░╚═╝░╚════╝░╚═╝░░╚═╝░░░╚═╝░░░  ░╚════╝░╚═╝░░╚═╝░╚════╝░╚═╝░░╚═╝╚══════╝
+</pre>
+  <br>
+  <div class="check">Memory cache loaded</div>
+</div>
+
+<h2>ls -l ./archive</h2>
+<div style="font-family: 'Cascadia Code', monospace; line-height: 2.5;">
+  {% for post in paginator.posts %}
+  <div style="margin-bottom: 15px;">
+    <span style="color: #ffd700;">{{ post.date | date: "%B %d, %Y" }}</span> — <a
+      href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+  </div>
+  {% endfor %}
+</div>
+
+<div class="pagination">
+  {% if paginator.previous_page %}
+  <a href="{{ paginator.previous_page_path | relative_url }}" class="previous">&laquo; Previous</a>
+  {% endif %}
+
+  {% for p in (1..paginator.total_pages) %}
+  {% if p == paginator.page %}
+  <em>{{ p }}</em>
+  {% elsif p == 1 %}
+  <a href="{{ site.baseurl }}/archive/" class="page">{{ p }}</a>
+  {% else %}
+  <a href="{{ site.baseurl }}/archive/page/{{ p }}/" class="page">{{ p }}</a>
+  {% endif %}
+  {% endfor %}
+
+  {% if paginator.next_page %}
+  <a href="{{ paginator.next_page_path | relative_url }}" class="next">Next &raquo;</a>
+  {% endif %}
+</div>

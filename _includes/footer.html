@@ -4,7 +4,7 @@
     {% if current_url contains '.html' %}
     {% assign current_url = current_url | remove: '.html' %}
     {% endif %}
-    <p>~$pwd:{{ current_url }}</p>
+    <p>~$pwd:{{ current_url | replace: '/zsh_history', '/archive' }}</p>
     <ul>
         <li><a href="https://github.com/{{ site.github_username }}" target="_blank"><i class="fa fa-github"></i>
                 GitHub</a></li>
