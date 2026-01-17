@@ -35,8 +35,8 @@ sass:
 
 pagination:
   enabled: true
-  per_page: 5
-  permalink: '/archive/page/:num/'
+  per_page: 3
+  permalink: '/page/:num/'
   sort_field: 'date'
   sort_reverse: true
 
