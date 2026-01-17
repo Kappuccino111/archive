@@ -1,6 +1,6 @@
 ---
 layout: default
-title: .zprofile
+title: whoami
 ---
 
 <div class="centered">
