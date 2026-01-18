@@ -124,6 +124,13 @@ nav a:hover {
   background-color: #000000;
 }
 
+nav a.active {
+  color: $hover-color;
+  text-decoration: underline;
+  text-underline-offset: 0.4em;
+  font-weight: bold;
+}
+
 
 footer {
   background-color: $header-bg;

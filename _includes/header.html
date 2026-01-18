@@ -3,8 +3,10 @@
 
     <nav>
         <ul>
-            <li><a href="{{ site.baseurl }}/">whoami</a></li>
-            <li><a href="{{ site.baseurl }}/archive/">archive</a></li>
+            <li><a href="{{ site.baseurl }}/" {% if page.url=="/" or page.url=="/index.html" %}class="active" {% endif
+                    %}>whoami</a></li>
+            <li><a href="{{ site.baseurl }}/archive/" {% if page.url contains "/archive/" or page.collection=="articles"
+                    %}class="active" {% endif %}>archive</a></li>
         </ul>
     </nav>
 </header>
