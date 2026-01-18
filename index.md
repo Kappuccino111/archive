@@ -45,10 +45,14 @@ title: whoami
 
 ## My place in the Internet Archive
 
-You seem to have navigated your way to what can best be described as a brain dump, an unfiltered repository of my technical musings and random thoughts as I tackle software/firmware engineering challenges. I hope you manage to sift through and locate whatever it is you are searching for within this digital labyrinth.
+This is a brain dump. Notes, code, half-baked ideas, and whatever else has accumulated while working through software and firmware problems. It’s written primarily for myself, not for onboarding or marketing.
 
-Unless, of course, you are on a job hunt, in which case I must clarify that I am not currently recruiting. Yet. Nonetheless, feel free to delve into the assortment of code snippets, algorithms, and assorted technical debris scattered throughout this space.
+You will also occasionally find travel logs or photos mixed in. Think of them as noise in the signal: ignorable and optional. If you find something useful, good. If not, that’s fine too.
 
-Should you have a professional opportunity or an interesting project that aligns with my expertise, my communication channels are open.
+If you are here looking for a job posting, don’t bother. I am not recruiting.
+
+If you have a real technical problem, a non-trivial project, or something genuinely interesting that overlaps with what I do, you know how to reach me. Be precise. Have constraints. Skip the fluff.
+
+Head over to the [archive]({{ site.baseurl }}/archive/) if you want to browse articles, projects, notes, and whatever else ended up preserved here.
 
 `Happy Exploring :)`
