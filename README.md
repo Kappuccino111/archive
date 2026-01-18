@@ -20,4 +20,4 @@ If there is interest I may also create a template repository (no estimated ETA o
 - Run `bundle exec jekyll serve` to start a local server at `http://localhost:4000`
 - Modify the `_config.yml` file to change site settings
 - Add posts to the '_articles' folder in markdown format, with the layout specified in the front matter
-- Customize the SASS files in the `assets/css` folder to change the site's appearance
+- Customize the CSS/SASS files in the `assets/css`/ `_sass` folder to change the site's appearance
